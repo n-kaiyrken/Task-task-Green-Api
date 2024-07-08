@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Green API Interface</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="left-panel">
+            <div class="input-group">
+                <input type="text" id="idInstance" placeholder="idInstance">
+            </div>
+            <div class="input-group">
+                <input type="text" id="ApiTokenInstance" placeholder="ApiTokenInstance">
+            </div>
+            <div class="input-group">
+                <button id="getSettings">getSettings</button>
+            </div>
+            <div class="input-group">
+                <button id="getStateInstance">getStateInstance</button>
+            </div>
+            <div class="input-group">
+                <input type="text" id="phoneNumber" placeholder="Phone Number">
+            </div>
+            <div class="input-group">
+                <input type="text" id="message" placeholder="Message">
+            </div>
+            <div class="input-group">
+                <button id="sendMessage">sendMessage</button>
+            </div>
+            <div class="input-group">
+                <input type="text" id="fileUrl" placeholder="File URL">
+            </div>
+            <div class="input-group">
+                <input type="text" id="fileName" placeholder="File Name">
+            </div>
+            <div class="input-group">
+                <button id="sendFileByUrl">sendFileByUrl</button>
+            </div>
+        </div>
+        <div class="right-panel" id="responseOutput">
+            <pre></pre>
+        </div>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
